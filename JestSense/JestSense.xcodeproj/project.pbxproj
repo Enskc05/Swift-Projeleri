@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8037F5852C9F0E3E005EA9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037F5842C9F0E3E005EA9F4 /* AppDelegate.swift */; };
+		8037F5872C9F0E3E005EA9F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037F5862C9F0E3E005EA9F4 /* SceneDelegate.swift */; };
+		8037F5892C9F0E3E005EA9F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037F5882C9F0E3E005EA9F4 /* ViewController.swift */; };
+		8037F58C2C9F0E3E005EA9F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8037F58B2C9F0E3E005EA9F4 /* Base */; };
+		8037F58E2C9F0E3F005EA9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8037F58D2C9F0E3F005EA9F4 /* Assets.xcassets */; };
+		8037F5912C9F0E3F005EA9F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8037F5902C9F0E3F005EA9F4 /* Base */; };
+		8037F59C2C9F0E40005EA9F4 /* JestSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037F59B2C9F0E40005EA9F4 /* JestSenseTests.swift */; };
+		8037F5A62C9F0E40005EA9F4 /* JestSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037F5A52C9F0E40005EA9F4 /* JestSenseUITests.swift */; };
+		8037F5A82C9F0E40005EA9F4 /* JestSenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037F5A72C9F0E40005EA9F4 /* JestSenseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8037F5982C9F0E40005EA9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8037F5792C9F0E3E005EA9F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8037F5802C9F0E3E005EA9F4;
+			remoteInfo = JestSense;
+		};
+		8037F5A22C9F0E40005EA9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8037F5792C9F0E3E005EA9F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8037F5802C9F0E3E005EA9F4;
+			remoteInfo = JestSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8037F5812C9F0E3E005EA9F4 /* JestSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JestSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8037F5842C9F0E3E005EA9F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8037F5862C9F0E3E005EA9F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8037F5882C9F0E3E005EA9F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8037F58B2C9F0E3E005EA9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8037F58D2C9F0E3F005EA9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8037F5902C9F0E3F005EA9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8037F5922C9F0E3F005EA9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8037F5972C9F0E40005EA9F4 /* JestSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JestSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8037F59B2C9F0E40005EA9F4 /* JestSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JestSenseTests.swift; sourceTree = "<group>"; };
+		8037F5A12C9F0E40005EA9F4 /* JestSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JestSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8037F5A52C9F0E40005EA9F4 /* JestSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JestSenseUITests.swift; sourceTree = "<group>"; };
+		8037F5A72C9F0E40005EA9F4 /* JestSenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JestSenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8037F57E2C9F0E3E005EA9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037F5942C9F0E40005EA9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037F59E2C9F0E40005EA9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8037F5782C9F0E3E005EA9F4 = {
+			isa = PBXGroup;
+			children = (
+				8037F5832C9F0E3E005EA9F4 /* JestSense */,
+				8037F59A2C9F0E40005EA9F4 /* JestSenseTests */,
+				8037F5A42C9F0E40005EA9F4 /* JestSenseUITests */,
+				8037F5822C9F0E3E005EA9F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8037F5822C9F0E3E005EA9F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8037F5812C9F0E3E005EA9F4 /* JestSense.app */,
+				8037F5972C9F0E40005EA9F4 /* JestSenseTests.xctest */,
+				8037F5A12C9F0E40005EA9F4 /* JestSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8037F5832C9F0E3E005EA9F4 /* JestSense */ = {
+			isa = PBXGroup;
+			children = (
+				8037F5842C9F0E3E005EA9F4 /* AppDelegate.swift */,
+				8037F5862C9F0E3E005EA9F4 /* SceneDelegate.swift */,
+				8037F5882C9F0E3E005EA9F4 /* ViewController.swift */,
+				8037F58A2C9F0E3E005EA9F4 /* Main.storyboard */,
+				8037F58D2C9F0E3F005EA9F4 /* Assets.xcassets */,
+				8037F58F2C9F0E3F005EA9F4 /* LaunchScreen.storyboard */,
+				8037F5922C9F0E3F005EA9F4 /* Info.plist */,
+			);
+			path = JestSense;
+			sourceTree = "<group>";
+		};
+		8037F59A2C9F0E40005EA9F4 /* JestSenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				8037F59B2C9F0E40005EA9F4 /* JestSenseTests.swift */,
+			);
+			path = JestSenseTests;
+			sourceTree = "<group>";
+		};
+		8037F5A42C9F0E40005EA9F4 /* JestSenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8037F5A52C9F0E40005EA9F4 /* JestSenseUITests.swift */,
+				8037F5A72C9F0E40005EA9F4 /* JestSenseUITestsLaunchTests.swift */,
+			);
+			path = JestSenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8037F5802C9F0E3E005EA9F4 /* JestSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8037F5AB2C9F0E40005EA9F4 /* Build configuration list for PBXNativeTarget "JestSense" */;
+			buildPhases = (
+				8037F57D2C9F0E3E005EA9F4 /* Sources */,
+				8037F57E2C9F0E3E005EA9F4 /* Frameworks */,
+				8037F57F2C9F0E3E005EA9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JestSense;
+			productName = JestSense;
+			productReference = 8037F5812C9F0E3E005EA9F4 /* JestSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8037F5962C9F0E40005EA9F4 /* JestSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8037F5AE2C9F0E40005EA9F4 /* Build configuration list for PBXNativeTarget "JestSenseTests" */;
+			buildPhases = (
+				8037F5932C9F0E40005EA9F4 /* Sources */,
+				8037F5942C9F0E40005EA9F4 /* Frameworks */,
+				8037F5952C9F0E40005EA9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8037F5992C9F0E40005EA9F4 /* PBXTargetDependency */,
+			);
+			name = JestSenseTests;
+			productName = JestSenseTests;
+			productReference = 8037F5972C9F0E40005EA9F4 /* JestSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8037F5A02C9F0E40005EA9F4 /* JestSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8037F5B12C9F0E40005EA9F4 /* Build configuration list for PBXNativeTarget "JestSenseUITests" */;
+			buildPhases = (
+				8037F59D2C9F0E40005EA9F4 /* Sources */,
+				8037F59E2C9F0E40005EA9F4 /* Frameworks */,
+				8037F59F2C9F0E40005EA9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8037F5A32C9F0E40005EA9F4 /* PBXTargetDependency */,
+			);
+			name = JestSenseUITests;
+			productName = JestSenseUITests;
+			productReference = 8037F5A12C9F0E40005EA9F4 /* JestSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8037F5792C9F0E3E005EA9F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8037F5802C9F0E3E005EA9F4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8037F5962C9F0E40005EA9F4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8037F5802C9F0E3E005EA9F4;
+					};
+					8037F5A02C9F0E40005EA9F4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8037F5802C9F0E3E005EA9F4;
+					};
+				};
+			};
+			buildConfigurationList = 8037F57C2C9F0E3E005EA9F4 /* Build configuration list for PBXProject "JestSense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8037F5782C9F0E3E005EA9F4;
+			productRefGroup = 8037F5822C9F0E3E005EA9F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8037F5802C9F0E3E005EA9F4 /* JestSense */,
+				8037F5962C9F0E40005EA9F4 /* JestSenseTests */,
+				8037F5A02C9F0E40005EA9F4 /* JestSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8037F57F2C9F0E3E005EA9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037F58E2C9F0E3F005EA9F4 /* Assets.xcassets in Resources */,
+				8037F5912C9F0E3F005EA9F4 /* Base in Resources */,
+				8037F58C2C9F0E3E005EA9F4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037F5952C9F0E40005EA9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037F59F2C9F0E40005EA9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8037F57D2C9F0E3E005EA9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037F5892C9F0E3E005EA9F4 /* ViewController.swift in Sources */,
+				8037F5852C9F0E3E005EA9F4 /* AppDelegate.swift in Sources */,
+				8037F5872C9F0E3E005EA9F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037F5932C9F0E40005EA9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037F59C2C9F0E40005EA9F4 /* JestSenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037F59D2C9F0E40005EA9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037F5A62C9F0E40005EA9F4 /* JestSenseUITests.swift in Sources */,
+				8037F5A82C9F0E40005EA9F4 /* JestSenseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8037F5992C9F0E40005EA9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8037F5802C9F0E3E005EA9F4 /* JestSense */;
+			targetProxy = 8037F5982C9F0E40005EA9F4 /* PBXContainerItemProxy */;
+		};
+		8037F5A32C9F0E40005EA9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8037F5802C9F0E3E005EA9F4 /* JestSense */;
+			targetProxy = 8037F5A22C9F0E40005EA9F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8037F58A2C9F0E3E005EA9F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8037F58B2C9F0E3E005EA9F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8037F58F2C9F0E3F005EA9F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8037F5902C9F0E3F005EA9F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8037F5A92C9F0E40005EA9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8037F5AA2C9F0E40005EA9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8037F5AC2C9F0E40005EA9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JestSense/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JestSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8037F5AD2C9F0E40005EA9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JestSense/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JestSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8037F5AF2C9F0E40005EA9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JestSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JestSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JestSense";
+			};
+			name = Debug;
+		};
+		8037F5B02C9F0E40005EA9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JestSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JestSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JestSense";
+			};
+			name = Release;
+		};
+		8037F5B22C9F0E40005EA9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JestSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JestSense;
+			};
+			name = Debug;
+		};
+		8037F5B32C9F0E40005EA9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JestSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JestSense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8037F57C2C9F0E3E005EA9F4 /* Build configuration list for PBXProject "JestSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037F5A92C9F0E40005EA9F4 /* Debug */,
+				8037F5AA2C9F0E40005EA9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8037F5AB2C9F0E40005EA9F4 /* Build configuration list for PBXNativeTarget "JestSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037F5AC2C9F0E40005EA9F4 /* Debug */,
+				8037F5AD2C9F0E40005EA9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8037F5AE2C9F0E40005EA9F4 /* Build configuration list for PBXNativeTarget "JestSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037F5AF2C9F0E40005EA9F4 /* Debug */,
+				8037F5B02C9F0E40005EA9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8037F5B12C9F0E40005EA9F4 /* Build configuration list for PBXNativeTarget "JestSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037F5B22C9F0E40005EA9F4 /* Debug */,
+				8037F5B32C9F0E40005EA9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8037F5792C9F0E3E005EA9F4 /* Project object */;
+}
