@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		80CC74C82CA3300C00C4D73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CC74A92CA3300B00C4D73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CC74B02CA3300B00C4D73F;
+			remoteInfo = SupermanTableView;
+		};
+		80CC74D22CA3300C00C4D73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CC74A92CA3300B00C4D73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CC74B02CA3300B00C4D73F;
+			remoteInfo = SupermanTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80CC74B12CA3300B00C4D73F /* SupermanTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupermanTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CC74C72CA3300C00C4D73F /* SupermanTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermanTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CC74D12CA3300C00C4D73F /* SupermanTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermanTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		80CC74D92CA3300C00C4D73F /* Exceptions for "SupermanTableView" folder in "SupermanTableView" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 80CC74B02CA3300B00C4D73F /* SupermanTableView */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		80CC74B32CA3300B00C4D73F /* SupermanTableView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80CC74D92CA3300C00C4D73F /* Exceptions for "SupermanTableView" folder in "SupermanTableView" target */,
+			);
+			path = SupermanTableView;
+			sourceTree = "<group>";
+		};
+		80CC74CA2CA3300C00C4D73F /* SupermanTableViewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SupermanTableViewTests;
+			sourceTree = "<group>";
+		};
+		80CC74D42CA3300C00C4D73F /* SupermanTableViewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SupermanTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CC74AE2CA3300B00C4D73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC74C42CA3300C00C4D73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC74CE2CA3300C00C4D73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CC74A82CA3300B00C4D73F = {
+			isa = PBXGroup;
+			children = (
+				80CC74B32CA3300B00C4D73F /* SupermanTableView */,
+				80CC74CA2CA3300C00C4D73F /* SupermanTableViewTests */,
+				80CC74D42CA3300C00C4D73F /* SupermanTableViewUITests */,
+				80CC74B22CA3300B00C4D73F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CC74B22CA3300B00C4D73F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CC74B12CA3300B00C4D73F /* SupermanTableView.app */,
+				80CC74C72CA3300C00C4D73F /* SupermanTableViewTests.xctest */,
+				80CC74D12CA3300C00C4D73F /* SupermanTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CC74B02CA3300B00C4D73F /* SupermanTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CC74DA2CA3300C00C4D73F /* Build configuration list for PBXNativeTarget "SupermanTableView" */;
+			buildPhases = (
+				80CC74AD2CA3300B00C4D73F /* Sources */,
+				80CC74AE2CA3300B00C4D73F /* Frameworks */,
+				80CC74AF2CA3300B00C4D73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				80CC74B32CA3300B00C4D73F /* SupermanTableView */,
+			);
+			name = SupermanTableView;
+			packageProductDependencies = (
+			);
+			productName = SupermanTableView;
+			productReference = 80CC74B12CA3300B00C4D73F /* SupermanTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CC74C62CA3300C00C4D73F /* SupermanTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CC74DF2CA3300C00C4D73F /* Build configuration list for PBXNativeTarget "SupermanTableViewTests" */;
+			buildPhases = (
+				80CC74C32CA3300C00C4D73F /* Sources */,
+				80CC74C42CA3300C00C4D73F /* Frameworks */,
+				80CC74C52CA3300C00C4D73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CC74C92CA3300C00C4D73F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80CC74CA2CA3300C00C4D73F /* SupermanTableViewTests */,
+			);
+			name = SupermanTableViewTests;
+			packageProductDependencies = (
+			);
+			productName = SupermanTableViewTests;
+			productReference = 80CC74C72CA3300C00C4D73F /* SupermanTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CC74D02CA3300C00C4D73F /* SupermanTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CC74E22CA3300C00C4D73F /* Build configuration list for PBXNativeTarget "SupermanTableViewUITests" */;
+			buildPhases = (
+				80CC74CD2CA3300C00C4D73F /* Sources */,
+				80CC74CE2CA3300C00C4D73F /* Frameworks */,
+				80CC74CF2CA3300C00C4D73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CC74D32CA3300C00C4D73F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80CC74D42CA3300C00C4D73F /* SupermanTableViewUITests */,
+			);
+			name = SupermanTableViewUITests;
+			packageProductDependencies = (
+			);
+			productName = SupermanTableViewUITests;
+			productReference = 80CC74D12CA3300C00C4D73F /* SupermanTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CC74A92CA3300B00C4D73F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					80CC74B02CA3300B00C4D73F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					80CC74C62CA3300C00C4D73F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 80CC74B02CA3300B00C4D73F;
+					};
+					80CC74D02CA3300C00C4D73F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 80CC74B02CA3300B00C4D73F;
+					};
+				};
+			};
+			buildConfigurationList = 80CC74AC2CA3300B00C4D73F /* Build configuration list for PBXProject "SupermanTableView" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CC74A82CA3300B00C4D73F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80CC74B22CA3300B00C4D73F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CC74B02CA3300B00C4D73F /* SupermanTableView */,
+				80CC74C62CA3300C00C4D73F /* SupermanTableViewTests */,
+				80CC74D02CA3300C00C4D73F /* SupermanTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CC74AF2CA3300B00C4D73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC74C52CA3300C00C4D73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC74CF2CA3300C00C4D73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CC74AD2CA3300B00C4D73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC74C32CA3300C00C4D73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC74CD2CA3300C00C4D73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CC74C92CA3300C00C4D73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CC74B02CA3300B00C4D73F /* SupermanTableView */;
+			targetProxy = 80CC74C82CA3300C00C4D73F /* PBXContainerItemProxy */;
+		};
+		80CC74D32CA3300C00C4D73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CC74B02CA3300B00C4D73F /* SupermanTableView */;
+			targetProxy = 80CC74D22CA3300C00C4D73F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80CC74DB2CA3300C00C4D73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SupermanTableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SupermanTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CC74DC2CA3300C00C4D73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SupermanTableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SupermanTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80CC74DD2CA3300C00C4D73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80CC74DE2CA3300C00C4D73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CC74E02CA3300C00C4D73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SupermanTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupermanTableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SupermanTableView";
+			};
+			name = Debug;
+		};
+		80CC74E12CA3300C00C4D73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SupermanTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupermanTableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SupermanTableView";
+			};
+			name = Release;
+		};
+		80CC74E32CA3300C00C4D73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SupermanTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupermanTableView;
+			};
+			name = Debug;
+		};
+		80CC74E42CA3300C00C4D73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.SupermanTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupermanTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CC74AC2CA3300B00C4D73F /* Build configuration list for PBXProject "SupermanTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC74DD2CA3300C00C4D73F /* Debug */,
+				80CC74DE2CA3300C00C4D73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CC74DA2CA3300C00C4D73F /* Build configuration list for PBXNativeTarget "SupermanTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC74DB2CA3300C00C4D73F /* Debug */,
+				80CC74DC2CA3300C00C4D73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CC74DF2CA3300C00C4D73F /* Build configuration list for PBXNativeTarget "SupermanTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC74E02CA3300C00C4D73F /* Debug */,
+				80CC74E12CA3300C00C4D73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CC74E22CA3300C00C4D73F /* Build configuration list for PBXNativeTarget "SupermanTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC74E32CA3300C00C4D73F /* Debug */,
+				80CC74E42CA3300C00C4D73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CC74A92CA3300B00C4D73F /* Project object */;
+}
